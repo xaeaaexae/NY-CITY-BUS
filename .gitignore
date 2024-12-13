@@ -1,0 +1,15 @@
+# Virtual Environnement
+.venv
+venv
+
+# Pycharm usage
+
+.idea
+
+# Dataset
+
+*.zip
+data/*
+
+.DS_Store
+

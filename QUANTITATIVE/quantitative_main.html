@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plotly Graphs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #dbdbf5;
+            color: #333;
+            text-align: center;
+            padding: 0.5rem;
+            font-size: 1.2rem; /* Smaller header */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 1rem;
+        }
+        iframe {
+            border: none;
+            margin: 1rem;
+            width: 45%;
+            height: 500px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Quantitative graphs</h1>
+    </header>
+    <main>
+        <iframe src="average_arrival_delay.html"></iframe>
+        <iframe src="retard_bus_selon_heure.html"></iframe>
+        <iframe src="top_bus_stops.html"></iframe>
+        <iframe src="top_stops_delay.html"></iframe>
+        <iframe src="active_vehicles_over_time.html"></iframe>
+        <iframe src="active_vehicles_over_time_polar.html"></iframe>
+    </main>
+</body>
+</html>
